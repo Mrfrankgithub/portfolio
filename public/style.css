@@ -1,0 +1,217 @@
+.claff{
+    font-size: 50px;
+    padding-left: 10px;
+}
+.sub{
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.5s, transform 0.5s;
+}
+.sub a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 20px;
+   display: inline-block;
+}
+.sub:hover{
+    background: #ff04f0;
+    transform: translateY(-10px);
+}
+.cardo{
+    border-radius: 30px;
+    background-color: #212529;
+    transition: background 0.5s, transform 0.5s;
+    /* height: 100%;
+    width: 100%; */
+}
+.cardo:hover{
+    background:rgb(0, 129, 129);
+    transform: translateY(-10px);
+}
+
+.animate-img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ff3d0036;
+    border-radius: 15px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin:5px;
+    transition: 400ms;
+    }
+
+.animate-img:hover{
+filter: grayscale(1);
+transform: scale(1.03);
+
+}
+
+
+@media only screen and (max-width:900px) {
+.img{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    
+ }
+
+ .cardo{
+    border-radius: 30px;
+    background-color: #212529;
+    transition: background 0.5s, transform 0.5s;
+    height: 100%;
+    width: 100%;
+}
+ .cent{
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+
+ }
+    
+}
+/* .img{
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+   
+}
+.meet img{
+    width: 430px;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    
+}
+.layer{
+    width: 85%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+ .meet:hover img{
+    transform: scale(1.1);
+
+}
+.meet:hover .layer{
+    height: 100%;
+}  */
+ 
+.design{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    color: dodgerblue;;
+}
+.pool{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.plan{
+    background-image: url(./aport/planbg.png);
+   padding-bottom: 50px;
+}
+.meet{
+    position: relative;
+    width: 50%;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+  }
+.layer{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(rgba(0,0,0,0.6), #00ffaa);
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: .5s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      font-size: 14px;
+      border-radius: 12px;
+
+  }
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+  .meet:hover .layer {
+    height: 100%;
+  }
+
+  .contact-grid-right iframe{
+	width:100%;
+	height:160px;
+	border:none;
+	border-radius: 0.25em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	margin-top:1.4em;
+}
+.contact-grid-right{
+	color:#FFF;
+}
+.contact-grid-right p{
+	font-size: 0.875em;
+	margin: 0.5em 0;
+	line-height:1.5em;
+}
+.contact-grid-right h5{
+	font-weight:700;
+}
+.contact-grid-right span{
+	font-size:0.875em;
+}
+.contact-grid-right a:hover{
+	text-decoration:none;
+	color:#07A8C5;
+}
+.contact-social{
+	text-align: center;
+	margin: 2em 0 0 0;
+}
+.contact-social a{
+	margin:0 0.5em;
+}
+.contact-social a:hover,.contact-social a i:hover{
+	text-decoration:none;
+	color:#07A8C5;
+}
+.contact-social a i{
+	font-size: 1.6em;
+	color: #FFF;
+}
